@@ -1,0 +1,120 @@
+.html__index{background-image: url(../img/fondo.jpg);
+background-size: cover}
+
+.htmlMusica{background-image: url(../img/fondomusica.png)
+	;background-size:cover;}
+.html__videojuegos{background-image: url(../img/fondojuegos.png)
+;background-size:cover;}
+.html__libros{background-image: url(../img/fondolibros.png);}
+.html__peliculas{background-image: url(../img/fondopeliculas.png);}
+
+*{color:white;font-family: 'Smooch Sans', sans-serif;}
+header nav{background-color:rgba(252,3, 140, 1);
+padding-right:20rem;
+justify-content:space-between;
+display:inline-flex;
+text-align: right;
+}
+
+header nav:hover{background-color: rgba(252,3, 140, 0.75);}
+
+.background-color{background-color: brown}
+
+header nav a img{position: relative;}
+
+header nav ol{
+	list-style:none
+	;display:inline;
+	text-align: right;}
+
+header nav ol li{
+font-size: 1.70rem
+;display: inline;
+padding:  5px;
+margin-right: 20px;
+text-align: right;}
+
+.border{border-bottom-width: 20px}
+
+header nav ol li a{text-decoration:none;
+ color: grey; font-family: arial, sans-serif;
+ text-align: right; margin-left: 90px }
+
+header nav ol li a:hover{
+
+font-weight: 100;color: black}
+
+
+.div{text-align: center;}
+
+.textcenter{text-align: center}
+
+
+.textright{text-align: right}
+
+.textleft{text-align: left}
+
+.textbold{font-weight: 500}
+
+.caja{font-weight: 10px}
+
+.caja__articulo{
+	width: 100%;
+	height: auto;
+	overflow-x: auto;
+	margin:20px 10px 20px 10px;
+	padding: 10px 30px;
+	box-sizing: border-box; 
+	border: solid 4px violet;
+	color: grey;
+	}
+
+.caja__articulo--p{
+ size: 40px;
+ box-sizing:auto;
+ color: white;
+ text-align: center;}
+
+.pie{
+	height: auto;
+	overflow-x: auto
+	margin:20px 10px 20px 10px;
+	padding: 10px 30px;
+	box-sizing: border-box; 
+	border: solid 3px red;
+	color: grey;}
+
+
+.grid{display:grid auto;
+grid-template-columns:repeat(2,1fr);
+grid-template-rows:1fr 2fr 1fr 1fr 2fr 1fr;
+grid-template-areas: "caja1"
+"caja2" "caja3" "caja4" "caja5" "caja6"
+ ;font-size: 20px
+;border: solid 4px blue
+;padding: 20px 40px 20px 40px;margin:auto;
+}
+
+
+
+.caja1{ background-color: rgba(39, 77, 138, 1);}
+
+.caja2{ background-color: rgba(235, 72, 7,1);
+;border:solid 2px red;}
+
+.caja3{border:solid 3px red; }
+
+.caja4{background-color: rgba(145, 26, 123,1)
+;
+}
+
+.caja5{
+background-color: rgba(36, 201, 58,1);
+}
+
+.caja6{background-color:rgba(201, 36, 36, 1);
+font-size:8;}
+
+
+.pie{
+border: solid 5px red}
