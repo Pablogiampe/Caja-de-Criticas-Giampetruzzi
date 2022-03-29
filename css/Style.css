@@ -9,14 +9,31 @@ background-size: cover}
 .html__peliculas{background-image: url(../img/fondopeliculas.png);}
 
 *{color:white;font-family: 'Smooch Sans', sans-serif;}
-header nav{background-color:rgba(252,3, 140, 1);
+header nav{background: linear-gradient(red, purple);
 padding-right:20rem;
 justify-content:space-between;
 display:inline-flex;
 text-align: right;
+cursor: pointer;
+transform: translate(30px);}
+
+@keyframes animatediv {
+  0% { top: 0; }
+  50% { top: 100px; left: 20px; }
+  50% { top: 10px; }
+  100% { top: 0; }
 }
 
-header nav:hover{background-color: rgba(252,3, 140, 0.75);}
+@keyframes animateimg{0% {:100px;}25%{:200px;}
+  50% {: 300px; }
+  75% {: 200px; }
+  100% {: 100px; }}
+
+header img{animation-name: animatediv;animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration:4s; }
+
+header nav:hover{background-color:rgba(252,3, 140, 0.75);}
 
 .background-color{background-color: brown}
 
@@ -45,6 +62,8 @@ header nav ol li a:hover{
 font-weight: 100;color: black}
 
 
+.background{background: linear-gradient(red, purple)}
+
 .div{text-align: center;}
 
 .textcenter{text-align: center}
@@ -66,7 +85,7 @@ font-weight: 100;color: black}
 	padding: 10px 30px;
 	box-sizing: border-box; 
 	border: solid 4px violet;
-	color: grey;
+	color: grey;background: linear-gradient(red, orange)
 	}
 
 .caja__articulo--p{
@@ -82,7 +101,7 @@ font-weight: 100;color: black}
 	padding: 10px 30px;
 	box-sizing: border-box; 
 	border: solid 3px red;
-	color: grey;}
+	color: grey;background: radial-gradient(purple, blue)}
 
 
 .grid{display:grid auto;
@@ -97,22 +116,28 @@ grid-template-areas: "caja1"
 
 
 
-.caja1{ background-color: rgba(39, 77, 138, 1);}
+.caja1{ background-color: rgba(39, 77, 138, 1)
+}
 
-.caja2{ background-color: rgba(235, 72, 7,1);
+.caja2{ background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(1,0,1,1) 25%, rgba(195,16,16,1) 38%, rgba(154,166,234,1) 77%, rgba(183,152,234,0.5396533613445378) 86%, rgba(235,162,158,1) 95%);;
 ;border:solid 2px red;}
 
-.caja3{border:solid 3px red; }
+.caja3{border:solid 3px red; background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); }
 
-.caja4{background-color: rgba(145, 26, 123,1)
+.caja4{background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,67,1) 35%, rgba(0,212,255,1) 100%);
 ;
 }
 
 .caja5{
-background-color: rgba(36, 201, 58,1);
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 90%, rgba(252,176,69,1) 100%);;
 }
 
-.caja6{background-color:rgba(201, 36, 36, 1);
+.caja6{background: rgb(131,58,180);
+background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 62%, rgba(151,29,253,1) 90%);;
 font-size:8;}
 
 
