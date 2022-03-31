@@ -1,5 +1,3 @@
-.html__index{background-image: url(../img/fondo.jpg);
-background-size: cover}
 
 .htmlMusica{background-image: url(../img/fondomusica.png)
 	;background-size:cover;}
@@ -9,13 +7,13 @@ background-size: cover}
 .html__peliculas{background-image: url(../img/fondopeliculas.png);}
 
 *{color:white;font-family: 'Smooch Sans', sans-serif;}
-header nav{background: linear-gradient(red, purple);
-padding-right:20rem;
+
+body nav{background: linear-gradient(red, purple);
+
 justify-content:space-between;
 display:inline-flex;
-text-align: right;
-cursor: pointer;
-transform: translate(30px);}
+text-align: center;
+cursor: pointer;}
 
 @keyframes animatediv {
   0% { top: 0; }
@@ -29,7 +27,7 @@ transform: translate(30px);}
   75% {: 200px; }
   100% {: 100px; }}
 
-header img{animation-name: animatediv;animation-iteration-count: infinite;
+body nav div a img{animation-name: animatediv;animation-iteration-count: infinite;
 animation-timing-function: linear;
 animation-duration:4s; }
 
@@ -75,7 +73,8 @@ font-weight: 100;color: black}
 
 .textbold{font-weight: 500}
 
-.caja{font-weight: 10px}
+.background-color: {font-weight: 10px;background: rgb(117,1,1);
+background: linear-gradient(90deg, rgba(117,1,1,1) 37%, rgba(36,0,0,1) 100%, rgba(0,212,255,1) 100%);}
 
 .caja__articulo{
 	width: 100%;
@@ -103,7 +102,7 @@ font-weight: 100;color: black}
 	border: solid 3px red;
 	color: grey;background: radial-gradient(purple, blue)}
 
-
+.container__1{background-color: red; }
 .grid{display:grid auto;
 grid-template-columns:repeat(2,1fr);
 grid-template-rows:1fr 2fr 1fr 1fr 2fr 1fr;
@@ -111,13 +110,17 @@ grid-template-areas: "caja1"
 "caja2" "caja3" "caja4" "caja5" "caja6"
  ;font-size: 20px
 ;border: solid 4px blue
-;padding: 20px 40px 20px 40px;margin:auto;
+;color: white
 }
 
 
 
-.caja1{ background-color: rgba(39, 77, 138, 1)
-}
+
+
+.overflow-y{overflow-y:scroll; }
+
+.caja1{background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,67,1) 35%, rgba(0,212,255,1) 100%);}
 
 .caja2{ background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(1,0,1,1) 25%, rgba(195,16,16,1) 38%, rgba(154,166,234,1) 77%, rgba(183,152,234,0.5396533613445378) 86%, rgba(235,162,158,1) 95%);;
