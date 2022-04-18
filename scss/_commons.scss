@@ -1,0 +1,48 @@
+// VARIABLES globales
+
+.htmlMusica{background-image: url(../img/fondomusica.png)
+	;background-size:cover;}
+.html__videojuegos{background-image: url(../img/fondojuegos.png)
+;background-size:cover;}
+.html__libros{background-image: url(../img/fondolibros.png);}
+.html__peliculas{background-image: url(../img/fondopeliculas.png);}
+.body-libro{background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); }
+
+cddd{ background: #1D4350; 
+background: -webkit-linear-gradient(to right, #A43931, #1D4350); 
+background: linear-gradient(to right, #A43931, #1D4350); 
+}
+
+$maincolor:linear-gradient(red, purple);
+
+$paleta:(
+	"uno": #f44336,
+	"dos": #e91e63,	
+	"tres": #9c27b0,
+	"cuatro": #673ab7,
+	"cinco": #3f51b5,
+	"seis": #2196f3,
+ 	"siete": #FDFEFE ,
+
+	);
+.textright{text-align: right;}
+.border{border-bottom-width: 20px}
+.background-color{background-color:
+	map-get($map:$paleta,$key:"cinco")}
+.articleCaja2{text-align: right;}
+.background{background: linear-gradient(red, purple)}
+.div{text-align: center;}
+.textcenter{text-align: center}
+.textleft{text-align: left}
+.textbold{font-weight: 500}
+.textbold{font-weight: 500}
+.container__1{background-color: red; }
+.radius{border-radius: 20px}
+@mixin modelling($padding,$margin,$border){
+
+border:$border;
+	padding:$padding;margin: $margin 
+}
+
+
+
