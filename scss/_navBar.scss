@@ -1,16 +1,17 @@
 //nesting
 
-nav{background: $maincolor;
+nav{background:transparent;
 justify-content:space-between;
 display:inline-flex;
-text-align: center;
-cursor: pointer;
+text-align: center;border:solid #19090B 2px;
+cursor: pointer;border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;box-shadow: black 10px;
 
-div{a{animation-name: animatediv;animation-iteration-count: infinite;
+	div{a{animation-name: animatediv;animation-iteration-count: infinite;
 animation-timing-function: linear;
 animation-duration:4s;img{position: relative;}}}
 
-ol{
+		ol{
 	list-style:none
 	;display:inline;
 	text-align: right;
