@@ -1,27 +1,27 @@
 //nesting
 
-nav{background:transparent;
+nav{background:#191533;
 justify-content:space-between;
-display:inline-flex;
+display:inline-flex;color: white;
 text-align: center;border:solid #19090B 2px;
 cursor: pointer;border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;box-shadow: black 10px;
 
 	div{a{animation-name: animatediv;animation-iteration-count: infinite;
-animation-timing-function: linear;
+animation-timing-function: linear;color: white;
 animation-duration:4s;img{position: relative;}}}
 
 		ol{
 	list-style:none
-	;display:inline;
+	;color: white;display:inline;
 	text-align: right;
 	li{
-font-size: 1.70rem
+font-size: 2rem
 ;display: inline;
 padding:  5px;
-margin-right: 20px;
+margin-right: 100px;
 text-align: right;a{text-decoration:none;
- color: grey; font-family: arial, sans-serif;
+ color: white; font-family: arial, sans-serif;
  text-align: right; margin-left: 90px;
  	&:hover{
 		font-weight: 100;color: black

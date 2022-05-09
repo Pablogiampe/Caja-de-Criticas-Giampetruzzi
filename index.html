@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en" class="background-html" >
+<html lang="en" class="body-index" >
   <head>
     <!-- Required meta tags -->
     <title>Pagina De Criticas</title>
     <meta charset="utf-8">
-    <meta name="description" content="Pagina centrada a la reseña del entretenimiento general, desde libros y videojuegos, hasta musica y peliculas">
-    <meta name="keywords" content="videojuegos, peliculas, libros, musica">    
+    <meta name="description" content="Pagina centrada a la reseña del entretenimiento general, desde peliculas y videojuegos">
+    <meta name="keywords" content="videojuegos, peliculas">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--  -->
     <link rel="stylesheet" href="css/main.css">
@@ -15,17 +15,17 @@
 
  
 
-    <title>Caja De Pandora</title>
+    <title class="title">Caja De Pandora</title>
 
 
    
-<body class="background-html" >
+<body class="body-index" >
 
 <!-- inicia el nav -->
 
 <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
     <img src="img/caja de.png" alt="Inicio" class="img-thumbnail bg-dark"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,17 +33,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link fw-bolder" aria-current="page" href="src/Peliculas.html">Peliculas</a>
+          <a class="nav-link fw-bolder text-light" aria-current="page" href="src/Peliculas.html">Peliculas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bolder" href="src/videojuegos.html">Videojuegos</a>
+          <a class="nav-link fw-bolder text-light" href="src/videojuegos.html">Videojuegos</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link fw-bolder" href="src/libros.html">Libros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fw-bolder" href="src/musica.html">Musica</a>
-        </li>
+       
       </ul>
      
     </div>
@@ -52,16 +47,18 @@
   </head>
     <!-- termina la nav -->
 
-<main class="main">
-    <article><h1>Caja De Pandora</h1>Bienvenidos a la Caja De Pandora, un prototipo de pagina de criticas en donde voy a expresar mi opinión sobre varias producciones en distintos formatos. Como se muestra abajo, reseñare desde películas hasta videojuegos, desde libros hasta canciones, con el fin de depositar mi opinión en internet, con suerte llegando a compartir el mismo gusto que el tuyo, o en cualquier caso, generar un debate en caso de que no estés de acuerdo conmigo, ambos resultados igual de beneficiosos.
+<main class="body-index">
+    <article><h1 class="title">Caja De Pandora</h1> <p>Bienvenidos a la Caja De Pandora, un prototipo de pagina de criticas en donde voy a expresar mi opinión sobre varias producciones en distintos formatos. Como se muestra abajo, reseñare desde películas hasta videojuegos, con el fin de depositar mi opinión en internet, con suerte llegando a compartir el mismo gusto que el tuyo, o en cualquier caso, generar un debate en caso de que no estés de acuerdo conmigo, ambos resultados igual de beneficiosos. </p><p>Esta pagina se encuentra en constante evolucion, por lo que incluso se podrian ver alteradas algunas reseñas, aunque dudo que suceda algo del estilo, excepto que sienta la necesidad de modificar un articulo por no representar mi opinion actual</p>
     </article>
 
       <div class="parent2">
-        <div class="divx1 "><a class="" href="src/peliculas.html"><img src="img/pelis.png" width="20%" class="textcenter" alt=""></a><P><h2>Peliculas</h2> </P></div>
-        <div class="divx2"><a class="" href="src/Libros.html"><img src="img/lbros.png" width="25%" class="textcenter" alt=""></a><P><h2>Libros</h2></p></div>
-        <div class="divx3"><a class="" href="src/Musica.html"><img src="img/musica3.png" width="20%"class="textcenter" alt=""></a><P><h2>Musica</h2> </p></div>
-        <div class="divx4"><a class="" href="src/videojuegos.html"><img src="img/videojuegos.webp" width="20%"  class="textcenter" alt=""></a><P><h2>Videojuegos</h2></p></div>
+        <div class="divx1"><a class="" href="src/peliculas.html"><img src="img/pelis.png" width="20%" class="textcenter" alt="Claqueta"></a><P><h2>Peliculas</h2> </P></div>
+
+        <div class="divx2"><a class="" href="src/videojuegos.html"><img src="img/videojuegos.webp" width="20%"  class="textcenter" alt="Joystick"></a><P><h2>Videojuegos</h2></p></div>
         </div>
+
+
+
 
 
 </body>
@@ -71,46 +68,7 @@
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <div class="textcenter">
-    
-      
-<form class="form" action="envio.php" method="post" ><h3 class="">Contacto</h1>
-          <fieldset > 
-            <legend>datos personales</legend>
-              <label for="nombre">nombre y apellido</label>
-              <input type="" placeholder="Pablo Giampetruzzi" name="nombre" id="nombre">
-      
-      
-              <label for="email">email</label>
-              <input type="email" placeholder="mail@mail.com" name="name" id="email">
-              </fieldset>
-              <fieldset >
-            
-                          
-              <label for="Recibir notificaciones por mail">Recibir notificaciones por mail</label>
-              <input type="checkbox" name="Recibir notificaciones por mail" id="Recibir notificaciones por mail" >
-            
-
-
-            </fieldset>
-            <fieldset >
-            <legend>Preferencias sobre entretenimiento</legend> 
-              <label for="envio">Peliculas</label>
-                <input type="checkbox" name="envio" id="envio" >
-                <label for="domicilio">Musica</label>
-                <input type="checkbox" name="envio" id="domicilio" >
-                <label for="videojuegos"> Videojuegos</label>
-                <input type="checkbox" name="videojuegos" id="videojuegos" >
-                <label for="Nada en especial">Libros</label>
-                <input type="checkbox" name="Nada en especial" id="Nada en especial" >
-                                
-                    
-                  </select>
-    <input class="bg-dark" type="reset" value="cancelar">
-              <input class="bg-dark" type="submit" value="enviar">
-
-      </form></div>
-
+  
 
     </main>
 <footer class="footer bg-dark text-white text-center text-uppercase">
