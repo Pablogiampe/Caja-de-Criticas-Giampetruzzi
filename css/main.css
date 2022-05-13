@@ -31,9 +31,6 @@
 .div {
   text-align: center; }
 
-.textcenter {
-  text-align: center; }
-
 .textleft {
   text-align: left; }
 
@@ -217,6 +214,12 @@ nav {
 .border {
   border-bottom-width: 20px; }
 
+.img {
+  width: 20%; }
+  @media screen and (max-width: 540px) {
+    .img {
+      size: 20%; } }
+
 .main {
   margin-right: 200px;
   margin-left: 200px;
@@ -300,8 +303,8 @@ nav {
 
 .parent2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
-  grid-template-rows: repeat(auto-fit, minmax(2, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 3fr));
   grid-column-gap: 4vh;
   grid-row-gap: 3vh;
   padding-bottom: 18rem;
@@ -310,11 +313,12 @@ nav {
     border: solid 5px #0a2351;
     text-align: center;
     border-radius: 1vh;
-    margin: 0.1px 5vh;
+    margin: 1px 5vh;
     transition: 1s;
-    background-color: #1F305E;
-    color: black;
-    font-size: 28; }
+    background-color: #1F305E; }
+    .parent2 .divx1 h2, .parent2 .divx2 h2 {
+      color: black;
+      font-size: 3vw; }
     .parent2 .divx1:hover, .parent2 .divx2:hover {
       background-color: black;
       border: solid 0.4vh black; }

@@ -23,7 +23,7 @@ $paleta:(
 .articleCaja2{text-align: right;}
 .background{background: linear-gradient(red, purple)}
 .div{text-align: center;}
-.textcenter{text-align: center}
+
 .textleft{text-align: left}
 .textbold{font-weight: 500}
 .textbold{font-weight: 500}
@@ -36,3 +36,16 @@ border:$border;
 }
 .body-index{background-color:#271533 }
 .body-color{background-color: rgba(0,0,0,0.85);}
+
+
+$breakpoints: (
+	sm : 540px
+	,md : 768px
+	,lg : 1024px);
+
+@mixin media-up ($breakpoint)
+ {@media screen and (max-width: map-get($breakpoints, $breakpoint)){
+@content;
+}}
+
+

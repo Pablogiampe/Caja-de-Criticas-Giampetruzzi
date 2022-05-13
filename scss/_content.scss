@@ -1,4 +1,7 @@
+.img{width: 20%;
+@include media-up(sm){ size:20%; }
 
+	}
 
 .main{	margin-right: 200px;
 		margin-left: 200px;
@@ -47,12 +50,12 @@ h1{color: white}
 
 .parent2 {
 	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(150px, 2fr));
-	grid-template-rows: repeat(auto-fit,minmax(2, 3fr));
+	grid-template-columns: repeat(auto-fit,minmax(300px, 2fr));
+	grid-template-rows: repeat(auto-fit,minmax(100px, 3fr));
 	grid-column-gap: 4vh;
 	grid-row-gap: 3vh;padding-bottom: 18rem;margin-top: 10rem;
 		.divx1{border:solid 5px #0a2351; text-align: center;border-radius: 1vh
-			;margin: 0.1px 5vh;;transition:1s;background-color: #1F305E;color: black;font-size: 28
+			;margin: 1px 5vh;;transition:1s;background-color: #1F305E;h2{color: black;font-size:3vw }
 			; &:hover{;background-color: rgba(black,1); border:solid 0.4vh rgba(black,1);}};
 
 		.divx2{;@extend .divx1;border:solid 6px #660000;background-color: #BA0021};
